@@ -67,7 +67,7 @@ function showLoadingIndicator() {
             width: 50px;
             height: 50px;
             border: 5px solid #f3f3f3;
-            border-top: 5px solid #4CAF50;
+            border-top: 5px solid #ff1a1a;
             border-radius: 50%;
             animation: spin 1s linear infinite;
             margin-bottom: 20px;
@@ -308,4 +308,5 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Ошибка при отображении блюд:', error);
         showErrorIndicator();
     }
+
 });
